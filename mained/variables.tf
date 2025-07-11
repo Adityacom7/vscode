@@ -11,5 +11,5 @@ variable "public_subnet_2_cidr" {
 }
 
 variable "az" {
-  default = "ap-south-1a"
+  default = "us-east-1"
 }
