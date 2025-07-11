@@ -4,7 +4,7 @@ This project contains Terraform configurations for managing infrastructure resou
 
 ## Directory Structure
 
-- **network/**: Contains configurations related to network resources.
+- **network/**: Contains configurations related to network resources.ramram????
   - `main.tf`: Main configuration for network resources (VPCs, subnets, security groups).
   - `variables.tf`: Input variables for the network module.
   - `outputs.tf`: Output values for the network module.
