@@ -1,4 +1,4 @@
-resource network "vpc" "main" {
+resource "aws_vpc" "main" {
   name = "my-vpc"
   cidr_block = var.vpc_cidr
   enable_dns_hostnames = true
@@ -40,11 +40,12 @@ tags = {
 
   resource "internet_gateway" "main" {
     vpc_id = network.vpc.main.id
-  }
-
+  
   tags = {
     Name = "MyInternetGateway"
     Environment = "Production"
+    }
+
   }
 
 
